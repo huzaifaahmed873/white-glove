@@ -1,0 +1,116 @@
+.subNavbar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff !important;
+}
+
+.subNavbarEnd {
+    display: flex;
+    justify-content: flex-end;
+    background: #fff !important;
+}
+
+.subHeading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.textBlue {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0BB2E8;
+    margin-left: 20px;
+}
+
+.list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 20px;
+    border-left: 3px solid grey;
+}
+
+.btn0 {
+    background: #D0F4FF;
+    border-radius: 10px;
+    color: #00B574;
+    border: none;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.btn1 {
+    background: #F5FFB5;
+    ;
+    border-radius: 10px;
+    color: #00B574;
+    border: none;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.btn2 {
+    background: rgba(0, 181, 116, 0.25);
+    ;
+    border-radius: 10px;
+    color: #00B574;
+    border: none;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.btn3 {
+    background: rgba(214, 214, 214, 0.51);
+    border-radius: 10px;
+    color: #737373;
+    border: none;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 50px 0 5px;
+    font-size: 18px;
+}
+
+.active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0BB2E8;
+    border: none;
+    background: #D0F4FF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 8px;
+}
+
+.borderBottom {
+    border-bottom: 3px solid #D0D0D0;
+}
+
+.Date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #828282;
+    padding-bottom: 20px;
+}

@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.css-1191obr-MuiPaper-root-MuiAppBar-root{
+  display:none !important;
+}
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root{
+  background: none !important;
+  box-shadow: none !important;
+}
+.css-zxdg2z{
+  padding: 0 0px !important;
+}
+/* .css-1r9jet7{
+  display: none !important;
+} */
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  margin-top: -65px !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

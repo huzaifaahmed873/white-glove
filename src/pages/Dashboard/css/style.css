@@ -1,0 +1,25 @@
+.background{
+    background: #C7FDE9;
+    padding: 5px 30px;
+    margin: 12px 0;
+}
+.float{
+    text-align: right;
+}
+.dashboard{
+    padding: 16px;
+}
+.dashboard p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    
+}
+.border{
+    border: 1px solid #979797;
+    padding: 5px 30px;
+    margin: 12px 0;
+}

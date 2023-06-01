@@ -1,0 +1,60 @@
+.box {
+    background-color: #fff;
+    margin: 30px;
+    padding: 24px 0 0 24px;
+}
+
+.table {
+    background-color: #c2f8fc;
+    padding: 24px;
+}
+
+.btnS {
+    color: #fff;
+    background: #0BB2E8;
+    border-radius: 7px;
+    text-align: center;
+    margin: 0 12px;
+}
+
+.btnlist {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #737373;
+    margin: 8px 0px 8px 40px;
+}
+
+.tablelist {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #000000;
+    margin: 8px 0px 8px 0px;
+
+}
+
+.tableSubhead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.tablebtn {
+    background: #FFF8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+}
+.btn-div{
+    padding-left: 30px;
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AppNav from './components/navbar';
+import SubNav from './components/subNav';
+import Form from './pages/Form';
+import 'animate.css';
+import Categories from "./components/categories";
+import TableContent from './pages/TableContent';
+import GeneralRequirment from './pages/GeneralRequirement';
+import DoughnutChart from './components/DoughnutChart';
+import Dashboard from './pages/Dashboard';
+import Navigation from './Navigation/navigation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       {/* <AppNav />
+      <SubNav /> */}
+      {/* <DoughnutChart /> */}
+        {/* <GeneralRequirment /> */}
+          {/* <Form />  */}
+    {/* <TableContent /> */}
+    {/* <Dashboard /> */}
+    <Navigation />
+    </>
   );
 }
 
