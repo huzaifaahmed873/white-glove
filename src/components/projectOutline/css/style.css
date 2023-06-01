@@ -79,3 +79,13 @@ padding: 0px 20px;
     margin: 30px;
     text-align: center;
 }
+.modalstyle{
+    width: 1000px !important;
+
+}
+@media only screen and (max-width:768px){
+
+.modalstyle{
+    width: 400px !important;
+}
+}

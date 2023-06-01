@@ -14,7 +14,7 @@ const ProjectTimeline = () => {
         <>
             <AppNav />
             <SubNav />
-            <Grid container className='timeline'>
+            <Grid container className='timeline nimate__animated animate__backInUp'>
                 <Grid md={12}>
                     <div className='flex background'>
                         <div>

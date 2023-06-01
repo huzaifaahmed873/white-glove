@@ -22,7 +22,6 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 1000,
   bgcolor: 'background.paper',
   boxShadow: 24,
   pl: 4,
@@ -75,9 +74,9 @@ const ProjectOutline = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
+        <Box sx={style} className='modalstyle'>
           <Grid container>
-            <Grid md={3}>
+            <Grid md={3} xs={12}>
               <ArrowBackIcon onClick={()=>handleClick()} />
               <h6 className='search'>Search Terms</h6>
               <label className='inputlabel'>Is your solution a hosted or an on premise solution </label>
@@ -155,7 +154,7 @@ const ProjectOutline = () => {
                 inputProps={{ 'aria-label': 'controlled' }}
               />Library Entries with Attachment(s) only
             </Grid>
-            <Grid md={9}>
+            <Grid md={9} xs={12}>
               <div className='ModalHead'>
                 <h6>Is your solution a hosted or an on premise solution  </h6>
               </div>
