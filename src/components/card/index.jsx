@@ -10,11 +10,11 @@ const Card = () => {
     return (
         <>
             <div class="card">
-                <div class="imgbox">
+                {/* <div class="imgbox">
                     <img
                         src="https://cdn-icons-png.flaticon.com/512/752/752241.png"
                     />
-                </div>
+                </div> */}
 
                 <div class="content">
                     <FormControl>

@@ -20,7 +20,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 // import AppNav from '../navbar';
 
-const drawerWidth = 240;
+const drawerWidth = 270;
 
 const openedMixin = (theme) => ({
   width: drawerWidth,

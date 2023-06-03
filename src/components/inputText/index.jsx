@@ -15,10 +15,18 @@ const InputText = () => {
                     alignItems="center"
                 
                 >
-                    <input
-                        className='inputForm subHeading animate__animated animate__backInRight' 
-                         value="USCIS TDSS"   
-                        />
+                  {/* <TextField
+                //    id="outlinsed-basic"
+                //    label="Outlined" 
+                   variant="outlined" 
+   
+                   /> */}
+                   <TextField id="standard-basic" 
+                    variant="standard"
+                    className='inputForm subHeading animate__animated animate__backInRight' 
+                    value="USCIS TDSS"
+                     />
+
                 </Grid>
             </Grid>
         </>

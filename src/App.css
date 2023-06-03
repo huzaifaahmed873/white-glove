@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -22,6 +25,9 @@
 } */
 .css-hip9hq-MuiPaper-root-MuiAppBar-root{
   margin-top: -65px !important;
+}
+.css-n5433n-MuiPaper-root-MuiAppBar-root{
+  background-color: none !important
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
