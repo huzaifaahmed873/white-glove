@@ -23,7 +23,7 @@ const InputText = () => {
                    /> */}
                    <TextField id="standard-basic" 
                     variant="standard"
-                    className='inputForm subHeading animate__animated animate__backInRight' 
+                    className='inputForm subHeading' 
                     value="USCIS TDSS"
                      />
 

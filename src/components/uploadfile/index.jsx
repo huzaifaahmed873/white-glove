@@ -9,7 +9,7 @@ const UploadFile = () => {
     <>
       <Grid container spacing={2}>
         <Grid item xs={12} md={12}>
-          <div className="uploadcard subHeading animate__animated animate__backInUp">
+          <div className="uploadcard subHeading">
 
             <div className='circle'>
               <AddIcon
@@ -22,7 +22,7 @@ const UploadFile = () => {
               </div>
             </div>
             <div className='center'>
-            <h4>Let’s Start Your Project</h4>
+            <h4 className='strtpro'>Let’s Start Your Project</h4>
               <div class="upload-btn-wrapper">
                 <button class="btnupload">Upload RFP</button>
                 <input type="file" name="myfile" />

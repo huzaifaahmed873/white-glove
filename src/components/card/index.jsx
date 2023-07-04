@@ -16,7 +16,7 @@ const Card = () => {
                     />
                 </div> */}
 
-                <div class="content">
+                <div class="content-design">
                     <FormControl>
                         <RadioGroup
                             aria-labelledby="demo-radio-buttons-group-label"

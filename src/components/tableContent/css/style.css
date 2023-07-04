@@ -1,11 +1,11 @@
 .box {
     background-color: #fff;
-    margin: 30px;
+    margin: 0px 30px 30px;
     padding: 24px 0 0 24px;
 }
 
 .table {
-    background-color: #c2f8fc;
+    /* background-color: #c2f8fc; */
     padding: 24px;
 }
 

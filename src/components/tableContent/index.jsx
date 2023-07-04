@@ -17,7 +17,7 @@ const RfpTable = () => {
         <>
         <AppNav />
             <Grid container className='table'>
-                <h1>USCIS TDSS RFP</h1>
+                <h1 className='uscis-heading'>USCIS TDSS RFP</h1>
                 <div className='box'>
                 <Grid container>
                     <Grid md={1} xs={1}>

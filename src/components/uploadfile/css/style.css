@@ -2,6 +2,7 @@
     background-color: #fff;
     padding: 30px;
     border-radius: 13px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .center{
     text-align: center;
@@ -36,14 +37,14 @@
   }
   
   .btnupload {
-    border:  3px dotted #0BB2E8;
+    border: 3px dotted #0BB2E8;
     color: gray;
     background-color: white;
     padding: 20px 30px;
     border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
-    margin:32px;
+    margin: 0px;
   }
   
   .upload-btn-wrapper input[type=file] {
@@ -52,5 +53,20 @@
     left: 0;
     top: 0;
     opacity: 0;
-
+    width: 100%;
+  }
+  .strtpro{
+    margin: 20px 0px;
+  }
+  .card-categor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardactive{
+    border: 2px solid #1976d2;
+    color: #1976d2;
+    box-shadow: 2px 1px 7px #1976d278 !important;
   }

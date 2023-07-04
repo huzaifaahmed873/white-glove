@@ -24,7 +24,7 @@
   display: none !important;
 } */
 .css-hip9hq-MuiPaper-root-MuiAppBar-root{
-  margin-top: -65px !important;
+  /* margin-top: -65px !important; */
 }
 .css-n5433n-MuiPaper-root-MuiAppBar-root{
   background-color: none !important
@@ -57,4 +57,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+.css-1r9jet7{
+  min-height: 0px !important;
+}
+.drawer-open{
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.uscis-heading{
+  margin: 0px;
+}
+.selectoption > .css-qiwgdb {
+  padding: 0 !important;
 }

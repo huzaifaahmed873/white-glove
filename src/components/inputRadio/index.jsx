@@ -7,19 +7,19 @@ const InputRadio = () => {
         <>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={2} sm={3}>
-                    <Card  className='animate__animated animate__backInUp'/>
+                    <Card  className=''/>
                 </Grid>
                 <Grid item xs={12} md={2}  sm={3}>
-                    <Card  className='subHeading animate__animated animate__backInDown' />
+                    <Card />
                 </Grid>
                 <Grid item xs={12} md={2}  sm={3}>
-                    <Card  className='subHeading animate__animated animate__backInUp' />
+                    <Card />
                 </Grid>
                 <Grid item xs={12} md={2}  sm={3}>
-                    <Card  className='subHeading animate__animated animate__backInDown' />
+                    <Card />
                 </Grid>
                 <Grid item xs={12} md={2}  sm={3}>
-                    <Card  className='subHeading animate__animated animate__backInUp' />
+                    <Card />
                 </Grid>
             </Grid>
             {/* <Card /> */}

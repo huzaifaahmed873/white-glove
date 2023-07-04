@@ -4,40 +4,40 @@ import React from 'react'
 const REview = () => {
     return (
         <>
-            <Grid container>
-                <Grid md={2} xs={12}>
-                    <p>Blue Team</p>
-                    <div className='reviewbox1 animate__animated animate__backInUp'>
+            <Grid container spacing={2}>
+                <Grid item md={2} xs={12}>
+                    <p className='review-para'>Blue Team</p>
+                    <div className='reviewbox1'>
                         Conducted before sections are written, Usually of Section Strategy Templates or Annotated Outlines
                     </div>
                 </Grid>
-                <Grid md={2} xs={12}>
-                    <p>Pink Team</p>
-                    <div className='reviewbox2 animate__animated animate__backInDown'>
+                <Grid item md={2} xs={12}>
+                    <p className='review-para'>Pink Team</p>
+                    <div className='reviewbox2'>
                         Conducted before sections are written, Usually of Section Strategy Templates or Annotated Outlines
                     </div>
                 </Grid>
-                <Grid md={2} xs={12}>
-                    <p>Red Team</p>
-                    <div className='reviewbox3 animate__animated animate__backInUp'>
+                <Grid item md={2} xs={12}>
+                    <p className='review-para'>Red Team</p>
+                    <div className='reviewbox3'>
                         Conducted before sections are written, Usually of Section Strategy Templates or Annotated Outlines
                     </div>
                 </Grid>
-                <Grid md={2} xs={12}>
-                    <p>Green Team</p>
-                    <div className='reviewbox4 animate__animated animate__backInDown'>
+                <Grid item md={2} xs={12}>
+                    <p className='review-para'>Green Team</p>
+                    <div className='reviewbox4'>
                         Conducted before sections are written, Usually of Section Strategy Templates or Annotated Outlines
                     </div>
                 </Grid>
-                <Grid md={2} xs={12}>
-                    <p>Golden Team</p>
-                    <div className='reviewbox5 animate__animated animate__backInUp'>
+                <Grid item md={2} xs={12}>
+                    <p className='review-para'>Golden Team</p>
+                    <div className='reviewbox5'>
                         Conducted before sections are written, Usually of Section Strategy Templates or Annotated Outlines
                     </div>
                 </Grid>
-                <Grid md={2} xs={12}>
-                    <p>White Team</p>
-                    <div className='reviewbox6 animate__animated animate__backInDown'>
+                <Grid item md={2} xs={12}>
+                    <p className='review-para'>White Team</p>
+                    <div className='reviewbox6'>
                         Conducted before sections are written, Usually of Section Strategy Templates or Annotated Outlines
                     </div>
                 </Grid>

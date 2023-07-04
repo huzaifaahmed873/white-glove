@@ -40,10 +40,10 @@ const Form = () => {
         }
         else if (page === 5) {
             return <UploadFile />
-        }else if (page === 6) {
+        } else if (page === 6) {
             return <Categories />
         }
-        else if (page === 7){
+        else if (page === 7) {
             return <REview />
         }
         else {
@@ -64,58 +64,60 @@ const Form = () => {
             <Box>
                 <Grid container>
                     <AppNav />
-                    <Grid
-                        direction="column"
-                        sx={{ minHeight: '100vh', width: '100vw' }}
-                        className='form'
-                    >
+                    <Grid className='main-form'>
                         <Grid
-                            container
                             direction="column"
-                        >
-                            <h1
-                                className='formHeading animate__animated animate__backInLeft'>
-                                Let’s Create a New Project
-                            </h1>
-                            <h2
-                                className='subHeading animate__animated animate__backInRight'
-                                >
-                                {formLabels[page]}
-                            </h2>
-                            <div 
-                                className='subHeading animate__animated animate__backInRight'
-                                >{formDisplay()}
-                            </div>
-                        </Grid>
 
-                        <Grid
-                            className='button'
-                            sx={{ my: 20 }}
+                            className='form'
                         >
-                            <Button
-                                className='btn'
-                                sx={{ py: 2 }}
-                                variant="contained"
-                                // endIcon={<SendIcon />}
-                                disabled={page == 0}
-                                onClick={() => {
-                                    setPage((currPage) => currPage - 1)
-                                }}
+                            <Grid
+                                container
+                                direction="column"
                             >
-                                Back
-                            </Button>
-                            <Button
-                                className='btn'
-                                variant="contained"
-                                // endIcon={<SendIcon />}
-                                // disabled={page == formLabels.length - 1}
-                                onClick={() => {
-                                    
-                                    setPage((currPage) => currPage + 1)
-                                }}
+                                <h1
+                                    className='formHeading '>
+                                    Let’s Create a New Project
+                                </h1>
+                                <h2
+                                    className='subHeading'
+                                >
+                                    {formLabels[page]}
+                                </h2>
+                                <div
+                                    className='subHeading'
+                                >{formDisplay()}
+                                </div>
+                            </Grid>
+
+                            <Grid
+                                className='button'
+                                sx={{ mt: '20px' }}
                             >
-                                Next
-                            </Button>
+                                <Button
+                                    className='btn'
+                                    sx={{ py: 2 }}
+                                    variant="contained"
+                                    // endIcon={<SendIcon />}
+                                    disabled={page == 0}
+                                    onClick={() => {
+                                        setPage((currPage) => currPage - 1)
+                                    }}
+                                >
+                                    Back
+                                </Button>
+                                <Button
+                                    className='btn'
+                                    variant="contained"
+                                    // endIcon={<SendIcon />}
+                                    // disabled={page == formLabels.length - 1}
+                                    onClick={() => {
+
+                                        setPage((currPage) => currPage + 1)
+                                    }}
+                                >
+                                    Next
+                                </Button>
+                            </Grid>
                         </Grid>
                     </Grid>
                 </Grid>

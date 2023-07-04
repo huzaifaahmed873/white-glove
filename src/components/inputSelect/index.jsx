@@ -21,15 +21,16 @@ export default function InputSelect() {
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value="John Davison"
+          value={age}
           onChange={handleChange}
-          className='inputForm subHeading animate__animated animate__backInRight' 
+          className='inputForm subHeading selectoption'
         >
           <MenuItem value={10}>John Davison</MenuItem>
           <MenuItem value={20}>John Davison</MenuItem>
           <MenuItem value={30}>John Davison</MenuItem>
         </Select>
       </FormControl>
+   
     </Box>
   );
 }

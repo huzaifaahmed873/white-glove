@@ -17,7 +17,7 @@ const InputDate = () => {
                 >
                     <input
                         type='date'
-                        className='inputForm subHeading animate__animated animate__backInRight' 
+                        className='inputForm subHeading' 
                          value="USCIS TDSS"   
                         />
                 </Grid>
